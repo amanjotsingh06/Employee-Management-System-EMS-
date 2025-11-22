@@ -1,6 +1,6 @@
 employees = {
     101: {'name': 'Satya', 'age': 27, 'department': 'HR', 'salary': 50000},
-    102: {'name': 'Aman', 'age': 202, 'department': 'IT', 'salary': 45000}
+    102: {'name': 'Aman', 'age': 20, 'department': 'IT', 'salary': 45000}
 }
 
 def main_menu():
@@ -85,3 +85,4 @@ def search_employee():
     else:
         print("Employee not found.")
 main_menu()
+
